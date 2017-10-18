@@ -56,6 +56,20 @@ figcaption{
 
 	border-top: 1px solid #ccc;
 	}
+blockquote{
+	border-left-color: rgb(191, 191, 191);
+	border-left-style: dotted;
+	border-left-width: 1px;
+    font-size: 1.125em;
+    margin-top: 2.0em;
+    margin-bottom: 2em;
+    margin-left: 0em;
+    margin-right: 0;
+    padding: 0 .75em;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1.875;
+    }
 footer{
 	background-color: #111;
 	color: #fff;
