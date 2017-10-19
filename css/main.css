@@ -113,19 +113,40 @@ div p.framework{
 	padding-bottom: 5em;
 	}
 figure.headshot{
-	float: left;
-	margin-left: 10%;
-	border-radius: 50%;
-	height: 8em;
 	width: 8em;
-	border: 1em solid;
-	border-color: #ddd;
-	elipis: 50%
+	height: 8em;
+	border: .5em solid #F5F5F5;
+	border-radius: 50%;
+	margin: .25em 1em .75em 40%;
+	overflow: hidden;
+
+	}
+figure.headshot img{
+	
+	max-width: 100%;
+	margin-left: -2%;
+	margin-top: -10%;
+	}
+
+.space{
+	margin-left: 40%;
 	}
 
 
-
 @media (min-width: 48em) {
+
+.space{
+	margin-left: 13.2em;
+	}
+.bottom{
+	margin-left: 20em;
+	}
+figure.headshot{
+	margin-top: 2em;
+	margin-left: 9em;
+	text-align: left;
+	float: left;
+	}
 
 .float{
 	float: left;
