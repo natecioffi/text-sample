@@ -70,6 +70,9 @@ blockquote{
     text-align: left;
     line-height: 1.875;
     }
+.demo {
+	border: 1px solid #ddd;
+	}
 footer{
 	background-color: #111;
 	color: #fff;
@@ -97,16 +100,24 @@ div p.framework{
 	font-size: 2em;
 	
 	}
+h2{
+	text-align: center;
+	padding-top: 10em
+	}	
+
+#about-the-author{
+	position: relative;
+	}
 .framework{	
 	width: 90%;
 	max-width: 60em;
 	margin: 0 auto;
 	}
 .killer-intro{
-	margin-left: 10%;
+	
 	color: #fff;
 	text-align: left;
-	font-size: 7em;
+	font-size: 10em;
 	padding: 0;
 	}
 .bottom{
@@ -128,15 +139,15 @@ figure.headshot img{
 	margin-top: -10%;
 	}
 
-.space{
-	margin-left: 40%;
+h2.space{
+	margin-left: 5em;
 	}
 
 
 @media (min-width: 48em) {
 
 .space{
-	margin-left: 13.2em;
+	margin-left: 20em;
 	}
 .bottom{
 	margin-left: 20em;
@@ -152,13 +163,12 @@ figure.headshot{
 	float: left;
 	margin-left: 12.5%;
 	margin-right: 12.5%;
-
 	width: 25%;
 	overflow: none;
 	 }
 	 
 .killer-intro{
-	margin-bottom: -0.6em;
+	margin-bottom: -0.5em;
 
 	}
 nav ul{
