@@ -139,7 +139,9 @@ figure.headshot img{
 	margin-top: -10%;
 	}
 
-
+.copyright{
+	font-size: 0.75em;
+	}
 
 @media (min-width: 63em) {
 
