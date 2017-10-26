@@ -21,6 +21,9 @@ a{
 a:hover{
 	text-decoration: underline;
 	}
+p:focus{
+	outline: none;
+	}
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
