@@ -142,8 +142,14 @@ figure.headshot img{
 .copyright{
 	font-size: 0.75em;
 	}
-
+.wide{
+	display: none;
+	}
 @media (min-width: 63em) {
+
+.wide{
+	display: inline;
+	}
 
 .space{
 	margin-left: 20em;
@@ -176,7 +182,7 @@ nav ul{
 	}
 nav li {
 	word-spacing: .1em;
-	margin: .1em .5em; 
+	margin: .1em 0.1em; 
 	display: inline;
 	}
 nav .space{
