@@ -2,17 +2,23 @@ html{
 	line-height: 1.375;
 	font-size: 1.875;
 	background-color: #fff;
+}
 header{
 	color: #111;
 	}	
 	
-	}
+	
 body{
 	font-family: arial, sans-serif;
 	margin: 0;
 	}
 #about{
 	margin-top: 5em;
+	}9/++++++++
+
+h1{
+	margin: 0;
+	padding: 0;
 	}
 a{
 	text-decoration: none;
