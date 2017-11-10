@@ -173,7 +173,7 @@ figure.headshot img{
 .wide{
 	display: none;
 	}
-@media (min-width: 60em) {
+@media (min-width: 100em) {
 
 .wide{
 	display: inline;
@@ -213,3 +213,4 @@ nav li {
 	margin: .1em 0.1em; 
 	display: inline;
 	}
+}
