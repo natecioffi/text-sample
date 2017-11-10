@@ -16,10 +16,6 @@ body{
 	margin-top: 5em;
 	}
 
-h1{
-	margin: 0;
-	padding: 0;
-	}
 a{
 	text-decoration: none;
 	color: #fff;
@@ -110,8 +106,10 @@ div p.framework{
 	
 	}
 h2{
+	color: #f11;
+	font-size: 2em;
 	text-align: center;
-	padding-top: 10em
+	padding-top: 5em;
 	}	
 
 #about-the-author{
@@ -122,13 +120,34 @@ h2{
 	max-width: 60em;
 	margin: 0 auto;
 	}
-.killer-intro{
-	
+.framework2{	
+	margin-top: 10em;
+	width: 90%;
+	max-width: 90em;
+	margin: 0 auto;
+	}
+h1.killer-intro{
+	padding: 0;
+	margin-top: 0;
 	color: #fff;
 	text-align: left;
 	font-size: 10em;
-	padding: 0;
+	padding-top: 1em;
 	}
+.btt {
+	color: #111;
+	font-size: .75em;
+	text-align: center;
+	}
+.btt a{
+	/* color: #111; */
+	margin-top: 10em;
+	padding: 1.1em;
+	background-color: #f11;
+	color: #fff;
+	/* text-decoration: underline; */
+		
+		}
 .bottom{
 	padding-bottom: 5em;
 	}
