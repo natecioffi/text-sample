@@ -173,7 +173,7 @@ figure.headshot img{
 .wide{
 	display: none;
 	}
-@media (min-width: 60em) {
+@media (min-width: 80em) {
 
 .wide{
 	display: inline;
