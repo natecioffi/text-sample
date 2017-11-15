@@ -161,7 +161,7 @@ figure.headshot img{
 .wide{
 	display: none;
 	}
-@media (min-width: 100em) {
+@media (min-width: 60em) {
 
 .wide{
 	display: inline;
