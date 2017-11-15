@@ -1,6 +1,6 @@
-html{
+body{
 	line-height: 1.375;
-	font-size: 1.875;
+	font-size: 1.875em;
 	background-color: #fff;
 }
 header{
@@ -26,19 +26,7 @@ a:hover{
 p:focus{
 	outline: none;
 	}
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    -webkit-clip-path: inset(50%);
-    clip-path: inset(50%);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap
-	}
+
 nav {
 	background-color: #111;
 	}
@@ -86,12 +74,12 @@ footer img{
  	padding-top: 3em;
 	height: 5em;
 	width: auto;
-	alignment-adjust: ;
 		}
 figure.try-me p{
 	color: #999;
 	}
-footer ul {
+footer ul { 
+	margin-bottom: 0;
 	padding-bottom: 3em;
 	}
 footer li{
@@ -173,7 +161,7 @@ figure.headshot img{
 .wide{
 	display: none;
 	}
-@media (min-width: 80em) {
+@media (min-width: 100em) {
 
 .wide{
 	display: inline;
@@ -197,7 +185,7 @@ figure.headshot{
 	margin-left: 12.5%;
 	margin-right: 12.5%;
 	width: 25%;
-	overflow: none;
+	clear: both;
 	 }
 	 
 .killer-intro{
@@ -208,9 +196,9 @@ nav ul{
 	text-align: right;
 	margin-right: 5%;
 	}
+	
 nav li {
 	word-spacing: .1em;
 	margin: .1em 0.1em; 
 	display: inline;
 	}
-}
