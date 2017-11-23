@@ -172,7 +172,7 @@ figure.headshot img{
 	padding-top: 5em;
 	margin-top: 0;
 	}
-@media (min-width: 48em) {
+@media (min-width: 100em) {
 
 h1.killer-intro{
 	float: none;
